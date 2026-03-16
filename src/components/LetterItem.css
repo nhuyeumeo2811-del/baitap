@@ -1,0 +1,13 @@
+.letter-item {
+  background: white;
+  border-left: 5px solid #d07fe6;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  transition: transform 0.2s;
+   margin-top: 15px;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.letter-item:hover {
+  transform: scale(1.02);
+}

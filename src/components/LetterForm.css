@@ -1,0 +1,39 @@
+.App {
+  max-width: 500px;
+  margin: 50px auto;
+  border-radius: 8px;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #e1e4d1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: rgb(230, 220, 220);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+input {  
+  font-size: 16px;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #fd9aff;
+  color: white;
+  border: none;
+  cursor: pointer; 
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #c67fd4;
+}
